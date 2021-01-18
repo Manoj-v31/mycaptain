@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,x=12;
+	//printf("Enter value of x\n");
+	//scanf("%d",&x);
+	for(i=1;i<=x;i=i+2)
+	{
+		for(j=0;j<=i;j=j+1)
+		{
+			if(j%2==0)
+			{
+				printf("0");
+			}
+			else
+			{
+				printf("1");
+			}
+		}
+		printf("\n");
+	}
+}
